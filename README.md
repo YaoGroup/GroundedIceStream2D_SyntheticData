@@ -1,5 +1,7 @@
 # GroundedIceStream2D_SyntheticData
 
+![Image showing an example of the generated data](data-1/syndata_full.svg)
+
 ## Overview
 The data in this repository was generated with the finite-element package Ice-Sheet and Sea-Level System Model (ISSM) in Matlab. The model equations were the shelf-stream (for grounded ice) and shallow-shelf (for floating ice) approximations (SSA).
 
