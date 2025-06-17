@@ -27,6 +27,8 @@ $$\tau_{ij} = 2\mu\dot\epsilon_{ij} = B\dot\epsilon_{eff}^{\frac{1}{n}-1} \dot\e
 
 $$\dot\epsilon_{eff}^2 = \dot\epsilon_{xx}^2 + \dot\epsilon_{yy}^2 + +\dot\epsilon_{xy}^2 + \dot\epsilon_{xx}\dot\epsilon_{yy} $$
 
+No slip boundary conditions were applied at the boundary walls and the ice divide. Hydrostatic stress balance was applied at the ice shelf front. Note that some datasets may have an unconfined ice tongue at the front.
+
 In each of the `data-#` folders:
 - `md.mat` is the ISSM model file that contains all information regarding the setup, in particular bed and channel geometries, rheology and basal friction.
 - `syndata_full.mat` is a proceessed version of the `md.mat` file that extracts all variables that one could in principle have access to when doing inversion using real data.
