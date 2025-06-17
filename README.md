@@ -41,4 +41,4 @@ Then, in either `syndata_full.mat` or `syndata_grounded.mat`, the following vari
 The nomenclature here mostly follows the DIFFICE_jax code developed by our group.
 
 ## Data Specification (SI units)
-- `data-1`: $n=3$, $B=10^8$, $C_w=6.6247\times 10^4$, ice geometry is not in mass balance equilibrium (that is $\partial_t h \neq 0$), very unphysical case where viscous terms are comparable in magnitude to basal friction terms.
+- `data-1`: $n=3$, $m=3$, $B=10^8$, $C_w=6.6247\times 10^4$, ice geometry is not in mass balance equilibrium (that is $\partial_t h \neq 0$), very unphysical case where viscous terms are comparable in magnitude to basal friction terms.
