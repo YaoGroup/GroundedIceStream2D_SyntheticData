@@ -34,6 +34,7 @@ Then, in either `syndata_full.mat` or `syndata_grounded.mat`, the following vari
 - `xd` and `yd`: The x- and y- coordinates of FEM vertices at which velocities are calculated
 - `ud` and `vd`: The x- and y- components (a.k.a. $u$ and $v$) of velocity corresponding to the entries in `xd` and `yd`
 - `xct` and `yct`: The x- and y- coordinates of FEM vertices on the boundary of the domain (the grounded dataset stores these values evaluated at the boundary of the grounded region, and not the entire model domain).
+- `nnct`: outward-pointing normal vectors at each boundary vertex. Not relevant for now.
 - `bd_ud`, `bd_vd`, and `bd_mu`: The values of $u$, $v$, and $\mu$ at all FEM vertices on the boundary of the domain corresponding to entires in `xct` and `yct`. 
 - `basal_c` and `mu`: The values of $C$ (a.k.a. $\alpha^2$) and $\mu$ corresponding to entries in `xd` and `yd`
 - `xd_h` and `yd_h`: The x- and y- coordinates of FEM vertices at which thickness are calculated. These are the same as `xd` and `yd`, but this distinction is used in expectation of real data having different points where thickness data is available vs. those where velocity data is available.
