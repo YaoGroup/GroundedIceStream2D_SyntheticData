@@ -25,7 +25,7 @@ where $\tau_{ij}$ is related to strain rate by Glen's Law in ISSM:
 
 $$\tau_{ij} = 2\mu\dot\epsilon_{ij} = B\dot\epsilon_{eff}^{\frac{1}{n}-1} \dot\epsilon_{ij} $$
 
-$$\dot\epsilon_{eff}^2 = \dot\epsilon_{xx}^2 + \dot\epsilon_{yy}^2 + +\dot\epsilon_{xy}^2 + \dot\epsilon_{xx}\dot\epsilon_{yy} $$
+$$\dot\epsilon_{eff}^2 = \dot\epsilon_{xx}^2 + \dot\epsilon_{yy}^2 +\dot\epsilon_{xy}^2 + \dot\epsilon_{xx}\dot\epsilon_{yy} $$
 
 No slip boundary conditions were applied at the boundary walls and the ice divide. Hydrostatic stress balance was applied at the ice shelf front. Note that some datasets may have an unconfined ice tongue at the front.
 
